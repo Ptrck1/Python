@@ -148,4 +148,24 @@ idade = 10
 while idade != 0:
     print("A idade é", idade)
     idade = int(input("Digite a idade"))
+    
+    #02 - If , Else e Elif
+#Algoritmo para verificar qual é o tipo de daltonismo da pessoa.
+#Esse algoritmo serve para pessoas diagnósticadas com daltonismo, que querem saber o tipo de daltonismo.
+
+
+print("Descubra qual é o seu tipo de daltonismo ")
+cor = int (input("Digite qual cor vc enxerga:"))
+if cor == marrom:
+    print("Você tem o tipo de daltonismo Protanopia")
+elif cor == marrom:
+    print("Você tem o tipo de daltonismo Deuteranopia")
+elif cor == amarelo:
+    print("Você tem o tipo de daltonismo Tritanopia")
+elif cor >= 18 and idade < 60:
+    print("Você é um adulto")
+else:
+    print("Você é um idoso")
+print("---------------------------------------//----------------------------------------------")
+
 
