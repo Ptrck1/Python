@@ -20,7 +20,7 @@
 #01 - Input e Print
 #Algoritmo de cadastro do restaurante, onde você vai digitar seu nome, sua idade, email e crie uma senha.
 
-print(input("Faça cadastro no restaurante"))
+print("Faça cadastro no restaurante")
 nome = str (input("Digite seu nome:"))
 idade = int (input("Digite sua idade:"))
 email = str (input("Digite seu email:"))
@@ -32,21 +32,22 @@ login = str (input("Digite sua senha de cadastro:"))
 print("==========================================//=================================================")
 
 #02 - If , Else e Elif | And e Or
-#Algoritmo para verificar sua fase da vida.
+#Algoritmo para verificar qual é o tipo de daltonismo da pessoa.
+#Esse algoritmo serve para pessoas diagnósticadas com daltonismo, que querem saber o tipo de daltonismo.
 
-print("Descubra sua fase da vida")
-idade = int (input("Digite sua idade:"))
-if idade <= 3:
-    print("Você é um bebê")
-elif idade > 3 and idade <= 12:
-    print("Você é uma criança")
-elif idade > 12 and idade <= 17:
-    print("Você é um adolecente")
-elif idade >= 18 and idade < 60:
-    print("Você é um adulto")
-else:
-    print("Você é um idoso")
+print("Descubra qual é o seu tipo de daltonismo ")
+print("Cores: \n1 - marrom \n2 - cinza  \n3 - roxo \n4 - Outra cor")
+cor = int (input("Digite o numero da cor que vc enxerga:"))
+if cor == 1:
+    print("Você tem o tipo de daltonismo Protanopia")
+elif cor == 2:
+    print("Você tem o tipo de daltonismo Deuteranopia")
+elif cor == 3:
+    print("Você tem o tipo de daltonismo Tritanopia")
+elif cor == 4:
+    print("Procure um médico para ver o você tem")
 print("==========================================//=================================================")
+
 
 #03 - Match e case
 #Algoritmo escolha o que quer comer no restaurante.
